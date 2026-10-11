@@ -168,7 +168,6 @@ Interpret the results honestly. Examples of what you'll see:
 - Differences between device types and manufacturers are **small** (avg failures 1.88–2.02).
   Best/worst per device type (Q5) shows bigger gaps.
 - Age and maintenance frequency have almost **no correlation** with failures (Q10 ≈ 0).
-  "No relationship" is a valid finding — say so rather than forcing a story.
 
 ## Limitations
 
