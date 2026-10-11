@@ -161,6 +161,27 @@ The 16 questions follow the needs of a biomedical engineering manager, moving fr
 
 Two views, `v_device_type_kpis` and `v_high_risk_devices`, store key results for reuse in later queries or reporting.
 
+| device_type | devices | total_failures | avg_failures | total_cost | avg_downtime_h |
+|---|---:|---:|---:|---:|---:|
+| Infusion Pump | 705 | 1413 | 2.00 | 5965800 | 10.6 |
+| CT Scanner | 662 | 1267 | 1.91 | 5875705 | 10.3 |
+| X-Ray Machine | 729 | 1413 | 1.94 | 6277015 | 10.6 |
+| MRI Scanner | 673 | 1296 | 1.93 | 5744580 | 10.5 |
+| PET Scanner | 679 | 1310 | 1.93 | 5981260 | 11.0 |
+| Defibrillator | 701 | 1424 | 2.03 | 6159909 | 10.7 |
+
+| device_id | device_type | manufacturer | model | country | age_years | failure_event_count | downtime_hours | maintenance_cost | issue_type |
+|---|---|---|---|---|---:|---:|---:|---:|---|
+| MD04845 | CT Scanner | ImagingTech | Model-300 | Italy | 7 | 5 | 13.97 | 14225.90 | Voltage Spike |
+| MD01798 | CT Scanner | ScanPro | Model-200 | France | 12 | 5 | 17.55 | 5643.19 | Software Crash |
+| MD00001 | CT Scanner | MedEquip | Model-650 | Italy | 7 | 4 | 21.01 | 6409.08 | Sensor Misalignment |
+| MD03187 | CT Scanner | RescueTech | Model-300 | Italy | 9 | 5 | 11.43 | NULL | Circuit Failure |
+| MD00418 | CT Scanner | MedEquip | Model-650 | Canada | 9 | 5 | 16.09 | 11615.35 | Data Lag |
+| MD00084 | CT Scanner | UltraMed | Model-400 | UK | 6 | 5 | 15.67 | 7694.74 | Overheating |
+| MD03267 | CT Scanner | RescueTech | Model-400 | Canada | 10 | 4 | 24.89 | 22378.55 | Circuit Failure |
+| MD02966 | CT Scanner | UltraMed | Model-100 | USA | 2 | 5 | 32.19 | 8227.83 | Voltage Spike |
+
+
 ## Write up your findings (Reports)
 
 Interpret the results honestly. Examples of what you'll see:
