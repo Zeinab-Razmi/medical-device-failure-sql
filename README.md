@@ -23,7 +23,7 @@ The project follows an end-to-end workflow, from data import and profiling to da
 ## Project Structure
 
 ```
-medical_device_failure_project/
+medical-device-failure-sql/
 ├── README.md
 ├── data/
 │   └── Medical_Device_Failure_dataset.csv
